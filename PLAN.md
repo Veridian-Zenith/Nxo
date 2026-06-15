@@ -7,6 +7,7 @@ This document serves as the master index for technical documentation.
 - [Design System Specification](docs/design-system.md)
 - [AI Strategy](docs/ai-strategy.md)
 - [Feature Specifications](docs/feature-specs.md)
+- [Build Optimization Specification](docs/build-optimization.md)
 
 ## Tech Stack
 - **Language:** Kotlin
