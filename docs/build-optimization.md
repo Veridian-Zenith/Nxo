@@ -5,7 +5,7 @@ To achieve the performance and efficiency characteristic of CachyOS and high-per
 ## Toolchain & Compilation
 - **JDK:** Adopt **Temurin JDK 21** as the required toolchain for builds to ensure consistent, high-performance JVM bytecode generation.
 - **R8/D8:** Full-mode shrinking, obfuscation, and optimization enabled. Aggressive method inlining and resource shrinking.
-- **Native Code (NDK/Clang):** For performance-critical components (custom shaders, heavy math for animations), we will implement JNI wrappers using C++23/26 (via Clang 19+).
+- **Native Code (NDK/Clang):** For performance-critical components (custom shaders, heavy math for animations), we will implement JNI wrappers using C++26 (via Clang 21+).
 - **Link-Time Optimization (LTO):** Enabled for all native libraries (`-flto=thin`).
 
 ## Performance Engineering
